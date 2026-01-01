@@ -601,6 +601,15 @@ sudo systemctl enable --now ssh
 ```
 
 
+# host
+'''uname -m
+dpkg --print-architecture'''
+
+# guest
+'''uname -m
+dpkg --print-architecture'''
+
+
 # References
 
 Ubuntu ARM64 ISO directory (24.04.3): https://cdimage.ubuntu.com/releases/24.04.3/release/
