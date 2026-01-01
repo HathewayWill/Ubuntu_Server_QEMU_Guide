@@ -393,6 +393,8 @@ When the installer finishes and reboots, stop QEMU with Ctrl+C in the terminal r
 ## 8.1 Launch QEMU (no ISO)
 
 ```
+cd /vms/ubuntu-arm64
+
 ~/qemu/build/qemu-system-aarch64 \
   -machine virt,gic-version=3,virtualization=true \
   -accel tcg,thread=multi \
