@@ -65,14 +65,7 @@ sudo apt update
 Install the packages required to build QEMU, enable user-mode networking, and run the installer UI over VNC:
 
 ```
-sudo apt install -y \
-  build-essential git python3 pkg-config ninja-build \
-  meson-1.5 \
-  libglib2.0-dev libpixman-1-dev zlib1g-dev \
-  libslirp-dev \
-  qemu-efi-aarch64 \
-  wget ca-certificates \
-  tigervnc-viewer
+sudo apt install -y build-essential git python3 pkg-config ninja-build meson-1.5 libglib2.0-dev libpixman-1-dev zlib1g-dev libslirp-dev qemu-efi-aarch64 wget ca-certificates tigervnc-viewer
 ```
 
 What these are for:
